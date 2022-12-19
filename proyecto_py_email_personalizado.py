@@ -71,5 +71,5 @@ class Email:
 
 
 dict_emails=Email().proveedor_usuarios(Lista_emails)
-generico=Email().mensaje('Buenos dias {nombre},\nGracias por elegir {proveedor} como tu proveedor de mensajes.\nUn coordial saludo')
+generico=Email().mensaje('Buenos dias {nombre},\nMuchas gracias por elegir {proveedor} como tu proveedor de mensajes.\nUn coordial saludo')
 Email().preparar_envio(dict_emails,'youtlook.es',generico)
